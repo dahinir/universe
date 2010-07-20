@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl:com.dasolute.universe.domain.Document" items="${documents}" z="5ZbQzJ3JtW8K5dQthEb1hUJf7Ag=">
+        <table:table data="${documents}" id="l:com.dasolute.universe.domain.Document" path="/documents" z="5j9l5XPR4KJVce0k/REGUPxBxoc=">
+            <table:column id="c:com.dasolute.universe.domain.Document.title" property="title" z="11iYm3H9rq8fIibXuz62sPUIY84="/>
+            <table:column id="c:com.dasolute.universe.domain.Document.content" property="content" z="82hDKDxrXJ4GZAA8i8NeAvoFpsI="/>
+        </table:table>
+    </page:list>
+</div>
