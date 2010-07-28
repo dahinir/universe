@@ -3,7 +3,7 @@ package com.dasolute.universe.web;
 import javax.validation.Valid;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.convert.support.GenericConversionService;
-import org.springframework.roo.addon.web.mvc.controller.RooWebScaffold;
+// import org.springframework.roo.addon.web.mvc.controller.RooWebScaffold;
 import com.dasolute.universe.domain.Document;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.stereotype.Controller;
 
-@RooWebScaffold(path = "documents", formBackingObject = Document.class)
+// @RooWebScaffold(path = "documents", formBackingObject = Document.class)
 @RequestMapping("/documents")
 @Controller
 public class DocumentController {

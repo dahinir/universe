@@ -3,7 +3,7 @@ package com.dasolute.universe.domain;
 import java.util.List;
 import java.util.Random;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.roo.addon.dod.RooDataOnDemand;
+// import org.springframework.roo.addon.dod.RooDataOnDemand;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,7 +11,7 @@ import com.dasolute.universe.domain.Document;
 
 @Configurable
 @Component
-@RooDataOnDemand(entity = Document.class)
+// @RooDataOnDemand(entity = Document.class)
 public class DocumentDataOnDemand {
 
 	private Random rnd = new java.security.SecureRandom();

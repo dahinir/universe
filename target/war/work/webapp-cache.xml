@@ -77,14 +77,10 @@
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/classes/builddef.lst</string>
           <string>WEB-INF/classes/com/dasolute/universe/domain/Document.class</string>
-          <string>WEB-INF/classes/com/dasolute/universe/domain/Document_Roo_Configurable.class</string>
-          <string>WEB-INF/classes/com/dasolute/universe/domain/Document_Roo_Entity.class</string>
-          <string>WEB-INF/classes/com/dasolute/universe/domain/Document_Roo_JavaBean.class</string>
-          <string>WEB-INF/classes/com/dasolute/universe/domain/Document_Roo_ToString.class</string>
           <string>WEB-INF/classes/com/dasolute/universe/web/DocumentController$1.class</string>
           <string>WEB-INF/classes/com/dasolute/universe/web/DocumentController.class</string>
-          <string>WEB-INF/classes/com/dasolute/universe/web/DocumentController_Roo_Controller.class</string>
           <string>WEB-INF/classes/log4j.properties</string>
+          <string>WEB-INF/classes/META-INF/aop-ajc.xml</string>
           <string>WEB-INF/classes/META-INF/persistence.xml</string>
           <string>WEB-INF/classes/META-INF/spring/applicationContext-security.xml</string>
           <string>WEB-INF/classes/META-INF/spring/applicationContext.xml</string>
@@ -94,16 +90,27 @@
           <string>WEB-INF/lib/jcl-over-slf4j-1.6.0.jar</string>
           <string>WEB-INF/lib/slf4j-log4j12-1.6.0.jar</string>
           <string>WEB-INF/lib/aspectjrt-1.6.9.M2.jar</string>
-          <string>WEB-INF/lib/spring-core-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-asm-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-context-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-aop-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-core-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-asm-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-context-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-aop-3.0.3.RELEASE.jar</string>
           <string>WEB-INF/lib/aopalliance-1.0.jar</string>
-          <string>WEB-INF/lib/spring-beans-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-expression-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-aspects-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-context-support-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-tx-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-beans-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-expression-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-aspects-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-context-support-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-tx-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-web-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-webmvc-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-js-2.0.8.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-jdbc-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-orm-3.0.3.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-security-core-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/aspectjweaver-1.6.8.jar</string>
+          <string>WEB-INF/lib/spring-security-config-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-security-web-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-security-taglibs-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-security-acl-3.0.2.RELEASE.jar</string>
           <string>WEB-INF/lib/mysql-connector-java-5.1.12.jar</string>
           <string>WEB-INF/lib/hibernate-core-3.5.0-Final.jar</string>
           <string>WEB-INF/lib/antlr-2.7.6.jar</string>
@@ -119,8 +126,6 @@
           <string>WEB-INF/lib/validation-api-1.0.0.GA.jar</string>
           <string>WEB-INF/lib/cglib-nodep-2.2.jar</string>
           <string>WEB-INF/lib/jta-1.1.jar</string>
-          <string>WEB-INF/lib/spring-jdbc-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-orm-3.0.2.RELEASE.jar</string>
           <string>WEB-INF/lib/commons-pool-1.5.4.jar</string>
           <string>WEB-INF/lib/commons-dbcp-1.3.jar</string>
           <string>WEB-INF/lib/tiles-core-2.2.1.jar</string>
@@ -130,19 +135,10 @@
           <string>WEB-INF/lib/tiles-jsp-2.2.1.jar</string>
           <string>WEB-INF/lib/tiles-servlet-2.2.1.jar</string>
           <string>WEB-INF/lib/tiles-template-2.2.1.jar</string>
-          <string>WEB-INF/lib/spring-web-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-webmvc-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-js-2.0.8.RELEASE.jar</string>
           <string>WEB-INF/lib/commons-fileupload-1.2.1.jar</string>
           <string>WEB-INF/lib/urlrewritefilter-3.1.0.jar</string>
           <string>WEB-INF/lib/jstl-1.2.jar</string>
           <string>WEB-INF/lib/joda-time-1.6.jar</string>
-          <string>WEB-INF/lib/spring-security-core-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/aspectjweaver-1.6.8.jar</string>
-          <string>WEB-INF/lib/spring-security-config-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-security-web-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-security-taglibs-3.0.2.RELEASE.jar</string>
-          <string>WEB-INF/lib/spring-security-acl-3.0.2.RELEASE.jar</string>
         </pathsSet>
       </path-set>
     </entry>
@@ -238,31 +234,9 @@
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>2.5</version>
-        <type>jar</type>
-        <scope>provided</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.roo</groupId>
-        <artifactId>org.springframework.roo.annotations</artifactId>
-        <version>1.1.0.M1</version>
-        <type>jar</type>
-        <scope>provided</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>3.0.3.RELEASE</version>
         <type>jar</type>
         <scope>compile</scope>
         <exclusions>
@@ -273,13 +247,13 @@
         </exclusions>
         <optional>false</optional>
       </dependency>
-      <targetFileName>spring-core-3.0.2.RELEASE.jar</targetFileName>
+      <targetFileName>spring-core-3.0.3.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>3.0.3.RELEASE</version>
         <type>jar</type>
         <scope>test</scope>
         <exclusions>
@@ -295,49 +269,198 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>3.0.3.RELEASE</version>
         <type>jar</type>
         <scope>compile</scope>
         <exclusions/>
         <optional>false</optional>
       </dependency>
-      <targetFileName>spring-context-3.0.2.RELEASE.jar</targetFileName>
+      <targetFileName>spring-context-3.0.3.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>3.0.3.RELEASE</version>
         <type>jar</type>
         <scope>compile</scope>
         <exclusions/>
         <optional>false</optional>
       </dependency>
-      <targetFileName>spring-aop-3.0.2.RELEASE.jar</targetFileName>
+      <targetFileName>spring-aop-3.0.3.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aspects</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>3.0.3.RELEASE</version>
         <type>jar</type>
         <scope>compile</scope>
         <exclusions/>
         <optional>false</optional>
       </dependency>
-      <targetFileName>spring-aspects-3.0.2.RELEASE.jar</targetFileName>
+      <targetFileName>spring-aspects-3.0.3.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-tx-3.0.3.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-web-3.0.3.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-webmvc-3.0.3.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>spring-js</artifactId>
+        <version>2.0.8.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-beans</artifactId>
+            <groupId>org.springframework</groupId>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-context</artifactId>
+            <groupId>org.springframework</groupId>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-core</artifactId>
+            <groupId>org.springframework</groupId>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-context-support</artifactId>
+            <groupId>org.springframework</groupId>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-js-2.0.8.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-jdbc-3.0.3.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-orm-3.0.3.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-security-core-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-security-config-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
         <version>3.0.2.RELEASE</version>
         <type>jar</type>
         <scope>compile</scope>
         <exclusions/>
         <optional>false</optional>
       </dependency>
-      <targetFileName>spring-tx-3.0.2.RELEASE.jar</targetFileName>
+      <targetFileName>spring-security-web-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-taglibs</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-security-taglibs-3.0.2.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
@@ -476,30 +599,6 @@
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-jdbc</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-jdbc-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-orm</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-orm-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
         <groupId>commons-pool</groupId>
         <artifactId>commons-pool</artifactId>
         <version>1.5.4</version>
@@ -579,73 +678,6 @@
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-web</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>commons-logging</artifactId>
-            <groupId>commons-logging</groupId>
-          </org.apache.maven.model.Exclusion>
-        </exclusions>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-web-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>commons-logging</artifactId>
-            <groupId>commons-logging</groupId>
-          </org.apache.maven.model.Exclusion>
-        </exclusions>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-webmvc-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.webflow</groupId>
-        <artifactId>spring-js</artifactId>
-        <version>2.0.8.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>spring-beans</artifactId>
-            <groupId>org.springframework</groupId>
-          </org.apache.maven.model.Exclusion>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>spring-context</artifactId>
-            <groupId>org.springframework</groupId>
-          </org.apache.maven.model.Exclusion>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>spring-core</artifactId>
-            <groupId>org.springframework</groupId>
-          </org.apache.maven.model.Exclusion>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>spring-context-support</artifactId>
-            <groupId>org.springframework</groupId>
-          </org.apache.maven.model.Exclusion>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>commons-logging</artifactId>
-            <groupId>commons-logging</groupId>
-          </org.apache.maven.model.Exclusion>
-        </exclusions>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-js-2.0.8.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
         <groupId>commons-digester</groupId>
         <artifactId>commons-digester</artifactId>
         <version>2.0</version>
@@ -698,6 +730,17 @@
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
         <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax.servlet</groupId>
         <artifactId>jstl</artifactId>
         <version>1.2</version>
         <type>jar</type>
@@ -729,64 +772,6 @@
         <optional>false</optional>
       </dependency>
       <targetFileName>joda-time-1.6.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-core</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>commons-logging</artifactId>
-            <groupId>commons-logging</groupId>
-          </org.apache.maven.model.Exclusion>
-        </exclusions>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-security-core-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-config</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions>
-          <org.apache.maven.model.Exclusion>
-            <artifactId>commons-logging</artifactId>
-            <groupId>commons-logging</groupId>
-          </org.apache.maven.model.Exclusion>
-        </exclusions>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-security-config-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-web</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-security-web-3.0.2.RELEASE.jar</targetFileName>
-    </org.apache.maven.plugin.war.util.DependencyInfo>
-    <org.apache.maven.plugin.war.util.DependencyInfo>
-      <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-taglibs</artifactId>
-        <version>3.0.2.RELEASE</version>
-        <type>jar</type>
-        <scope>compile</scope>
-        <exclusions/>
-        <optional>false</optional>
-      </dependency>
-      <targetFileName>spring-security-taglibs-3.0.2.RELEASE.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
   </dependenciesInfo>
 </webapp-structure>

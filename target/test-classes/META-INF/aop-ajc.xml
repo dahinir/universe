@@ -1,9 +1,5 @@
 <aspectj>
 <aspects>
-<aspect name="com.dasolute.universe.domain.DocumentDataOnDemand_Roo_Configurable"/>
-<aspect name="com.dasolute.universe.domain.DocumentDataOnDemand_Roo_DataOnDemand"/>
-<aspect name="com.dasolute.universe.domain.DocumentIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="com.dasolute.universe.domain.DocumentIntegrationTest_Roo_Configurable"/>
 </aspects>
 </aspectj>
 

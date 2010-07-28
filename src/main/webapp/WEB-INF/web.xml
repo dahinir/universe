@@ -18,6 +18,7 @@
         <param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value>
     </context-param>
     
+    <!-- filters -->
     <filter>
         <filter-name>Spring OpenEntityManagerInViewFilter</filter-name>
         <filter-class>org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter</filter-class>

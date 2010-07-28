@@ -2,7 +2,7 @@ package com.dasolute.universe.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.roo.addon.test.RooIntegrationTest;
+// import org.springframework.roo.addon.test.RooIntegrationTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:/META-INF/spring/applicationContext.xml")
 @Configurable
-@RooIntegrationTest(entity = Document.class)
+// @RooIntegrationTest(entity = Document.class)
 public class DocumentIntegrationTest {
 
     @Test

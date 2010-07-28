@@ -53,7 +53,7 @@
 	
 	<!-- allows for integration of file upload functionality -->
 	<bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver"/>
-<bean class="org.springframework.js.ajax.AjaxUrlBasedViewResolver" id="tilesViewResolver">
+	<bean class="org.springframework.js.ajax.AjaxUrlBasedViewResolver" id="tilesViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
     </bean>
     <bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer" id="tilesConfigurer">

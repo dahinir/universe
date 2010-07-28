@@ -10,18 +10,18 @@ import javax.persistence.Id;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Version;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.roo.addon.javabean.RooJavaBean;
-import org.springframework.roo.addon.tostring.RooToString;
-import org.springframework.roo.addon.entity.RooEntity;
+// import org.springframework.roo.addon.javabean.RooJavaBean;
+// import org.springframework.roo.addon.tostring.RooToString;
+// import org.springframework.roo.addon.entity.RooEntity;
 import org.springframework.transaction.annotation.Transactional;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Configurable
 @Entity
-@RooJavaBean
-@RooToString
-@RooEntity
+// @RooJavaBean
+// @RooToString
+// @RooEntity
 public class Document {
     @NotNull
     @Size(max = 60)
