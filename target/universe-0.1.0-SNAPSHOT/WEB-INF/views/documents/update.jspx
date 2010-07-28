@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-    <jsp:output omit-xml-declaration="yes"/>
-    <form:update id="fu:com.dasolute.universe.domain.Document" modelAttribute="document" path="/documents" z="fNvGzb5FlYxi1jxVAv/jd5KUhy0=">
-        <field:textarea field="title" id="c:com.dasolute.universe.domain.Document.title" required="true" z="h5xhS7K96TyWhzOAZ5NnSSul8CQ="/>
-        <field:textarea field="content" id="c:com.dasolute.universe.domain.Document.content" required="true" z="EvGp1/On/ZtuN9AcPpx34N3++6s="/>
-    </form:update>
-</div>
