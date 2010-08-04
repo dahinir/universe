@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.stereotype.Controller;
 
 // @RooWebScaffold(path = "documents", formBackingObject = Document.class)
-@RequestMapping("/documents")
 @Controller
+@RequestMapping("/documents")
 public class DocumentController {
 
 	@RequestMapping(method = RequestMethod.POST)
