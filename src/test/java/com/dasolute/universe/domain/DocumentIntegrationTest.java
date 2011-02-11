@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
-import com.dasolute.universe.domain.Document;
+// import com.dasolute.universe.domain.Document;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
