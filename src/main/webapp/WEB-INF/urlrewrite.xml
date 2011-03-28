@@ -19,10 +19,13 @@
 		<from>/</from>
 		<to last="true">/app/index</to>		
 	</rule>
+	
+	<!-- configured outbound-rule. comment by dahinir
 	<rule>
 		<from>/app/**</from>
 		<to last="true">/app/$1</to>
 	</rule>
+	 -->
 	<rule>
 		<from>/**</from>
 		<to>/app/$1</to>

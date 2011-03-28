@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-    
     <display-name>universe</display-name>
-    
-    <description>dahinir generated universe application</description>
+    <description>dahinir generated universe</description>
 
     
     <!-- Enable escaping of form submission contents -->
@@ -12,11 +10,11 @@
         <param-name>defaultHtmlEscape</param-name>
         <param-value>true</param-value>
     </context-param>
-    
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value>
     </context-param>
+    
     
     <!-- filters -->
     <filter>
@@ -75,6 +73,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     
+    
     <!-- Handles Spring requests -->
     <servlet>
         <servlet-name>universe</servlet-name>
@@ -100,6 +99,7 @@
         <url-pattern>/app/*</url-pattern>
     </servlet-mapping>
     
+    <!-- etcs -->
     <session-config>
         <session-timeout>10</session-timeout>
     </session-config>
