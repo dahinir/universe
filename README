@@ -1,1 +1,11 @@
 Hello Universe!
+
+
+
+#you should modify when service time
+
+1. DB password
+	src/main/resources/META-INF/spring/database.properties
+	
+2. log4j threshold
+	src/main/resources/log4j.properties
