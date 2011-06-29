@@ -19,9 +19,7 @@ public class DomainController {
 
 		modelMap.addAttribute(domainName, Document.findDocument(id));
 
-		System.out.println("domainName:" + domainName + ", id:" + id);
-		//logger.dd
-		return domainName + "/show";
+		return domainName + "s/show";
 	}
 
 }

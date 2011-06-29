@@ -1,6 +1,7 @@
 package com.dasolute.universe.domain;
 
 import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityManager;
@@ -9,13 +10,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Version;
-import org.springframework.beans.factory.annotation.Configurable;
-// import org.springframework.roo.addon.javabean.RooJavaBean;
-// import org.springframework.roo.addon.tostring.RooToString;
-// import org.springframework.roo.addon.entity.RooEntity;
-import org.springframework.transaction.annotation.Transactional;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.transaction.annotation.Transactional;
 
 @Configurable
 @Entity
@@ -116,6 +115,7 @@ public class Document {
     }
 
 	public static final EntityManager entityManager() {
+		System.out.println("Document.entityManger called");
         EntityManager em = new Document().entityManager;
         if (em == null) throw new IllegalStateException("Entity manager has not been injected (is the Spring Aspects JAR configured as an AJC/AJDT aspects library?)");
         return em;
@@ -132,6 +132,7 @@ public class Document {
 
 	public static Document findDocument(Long id) {
         if (id == null) return null;
+        System.out.println("Document.findDocument called");
         return entityManager().find(Document.class, id);
     }
 

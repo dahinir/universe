@@ -1,0 +1,5 @@
+		<property name="commandClass" value="com.dasolute.euglena.core.domain.CommonCommand" />
+		<property name="commandName" value="commonCommand" />
+		
+it's SpringFramework's naming
+so,as DO property name => dataClass, dataClassName 
