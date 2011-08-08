@@ -25,7 +25,7 @@ public class Document {
     @NotNull
     @Size(max = 60)
     private String title;
-
+    
     @NotNull
     @Size(max = 3000)
     private String content;
