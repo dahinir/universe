@@ -41,7 +41,6 @@ public class DocumentController {
     public String show(@PathVariable("id") Long id, ModelMap modelMap) {
         if (id == null) throw new IllegalArgumentException("An Identifier is required");
         modelMap.addAttribute("document", Document.findDocument(id));
-        modelMap.addAttribute("document", Document.findDocument(id));
         return "documents/show";
     }
 

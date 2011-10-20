@@ -11,6 +11,7 @@
 		<param-value>true</param-value>
 	</context-param>
 	<context-param>
+		<!-- for ROOT Application Context -->
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value>
 	</context-param>
@@ -70,7 +71,7 @@
 
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
 	<listener>
-		<!-- This will make Root WebApplicationContext -->
+		<!-- This will make Root ApplicationContext -->
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
